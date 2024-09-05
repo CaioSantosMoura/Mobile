@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Projeto-1</string>
+    <string name="jesus_vive">Jesus Vive!!</string>
+    <string name="neymar_no_vasco">Neymar no Vasco?</string>
+    <string name="sim_ou_com_certeza">Sim ou Com Certeza</string>
+    <string name="vascoo">VASCOO!!</string>
+    <string name="neymar_img">Neymar Imagem</string>
 </resources>

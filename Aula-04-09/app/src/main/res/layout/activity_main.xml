@@ -3,42 +3,80 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:padding="10dp"
-        android:text="Jesus Vive!!"
-        android:textAlignment="center"
-        android:textSize="45sp"
         android:background="@color/blue"
-        android:textColor="@color/white" />
+        android:padding="10dp"
+        android:text="@string/jesus_vive"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45sp" />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="200dp"
         android:layout_margin="16dp"
-        android:src="@drawable/Neymar" />
+        android:src="@drawable/neymar"
+        android:contentDescription="@string/neymar_img"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Neymar no Vasco?"
-        android:textAlignment="center"
-        android:textSize="35sp"
         android:layout_margin="12dp"
-        />
+        android:text="@string/neymar_no_vasco"
+        android:textAlignment="center"
+        android:textSize="35sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Sim ou Com Certeza"
         android:layout_margin="6dp"
-        />
+        android:hint="@string/sim_ou_com_certeza"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <LinearLayout
+        android:id="@+id/main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/neymar"
+            android:contentDescription="@string/neymar_img" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/neymar"
+            android:contentDescription="@string/neymar_img" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/neymar"
+            android:contentDescription="@string/neymar_img" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue"
+        android:text="@string/vascoo" />
 
 </LinearLayout>
