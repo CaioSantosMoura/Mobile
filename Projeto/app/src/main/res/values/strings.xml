@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="logo">logo</string>
+    <string name="esqueceu_a_senha">Esqueceu a Senha?</string>
+    <string name="or">-------------------------- or -------------------------</string>
+    <string name="google">google</string>
+    <string name="email">Email</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="prefiro_n_o_dizer">Prefiro não dizer</string>
+    <string name="outro">Outro</string>
+    <string name="genero">Gênero:</string>
+    <string name="curriculopro">CurriculoPro</string>
+    <string name="desejo_receber_notifica_es">Desejo Receber Notificações</string>
+    <string name="aceito_os_termos_de_uso">Aceito os Termos de Uso</string>
+</resources>
