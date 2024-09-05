@@ -79,9 +79,7 @@
                 android:textSize="18sp"
                 tools:ignore="RtlHardcoded" />
 
-
         </LinearLayout>
-
 
         <Button
             android:layout_width="match_parent"
