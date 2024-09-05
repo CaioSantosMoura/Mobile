@@ -166,15 +166,34 @@
 
         </LinearLayout>
 
-
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:backgroundTint="@color/black"
-            android:text="@string/criar_conta"
-            android:textSize="15sp" />
+            android:orientation="horizontal" >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/criar_conta"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/criar_conta"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
