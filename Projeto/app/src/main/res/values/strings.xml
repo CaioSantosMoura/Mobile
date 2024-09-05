@@ -18,4 +18,15 @@
     <string name="curriculopro">CurriculoPro</string>
     <string name="desejo_receber_notifica_es">Desejo Receber Notificações</string>
     <string name="aceito_os_termos_de_uso">Aceito os Termos de Uso</string>
+    <string name="limpar_formul_rio">Limpar Formulário</string>
+    <string name="nome_do_usu_rio">Nome do Usuário</string>
+    <string name="perfil_curriculo">perfil_curriculo</string>
+    <string name="cargo_ou_t_tulo_profissional">Cargo ou Título Profissional</string>
+    <string name="email_exemplo_com">email@exemplo.com</string>
+    <string name="_11_12345_6789">(11) 12345-6789</string>
+    <string name="habilidades">Habilidades:</string>
+    <string name="java_android_xml">Java, Android, XML</string>
+    <string name="breve_descri_o_ou_biografia_do_usu_rio">Breve descrição ou biografia do usuário.</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="baixar_curr_culo">Baixar Currículo</string>
 </resources>
