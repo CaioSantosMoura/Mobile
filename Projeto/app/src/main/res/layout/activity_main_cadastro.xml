@@ -19,6 +19,7 @@
         tools:context=".MainActivity">
 
         <ImageView
+            android:id="@+id/imagem_logo"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_gravity="center"
@@ -26,6 +27,7 @@
             android:src="@drawable/logo" />
 
         <EditText
+            android:id="@+id/email_cadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -37,9 +39,10 @@
             android:inputType="text"
             android:padding="10dp"
             android:textSize="20sp"
-            tools:ignore="LabelFor" />
+            tools:ignore="LabelFor,TextFields" />
 
         <EditText
+            android:id="@+id/usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -54,6 +57,7 @@
             tools:ignore="LabelFor" />
 
         <EditText
+            android:id="@+id/senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -68,6 +72,7 @@
             tools:ignore="LabelFor" />
 
         <EditText
+            android:id="@+id/confirmar_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -82,7 +87,7 @@
             tools:ignore="LabelFor" />
 
         <RadioGroup
-            android:id="@+id/radio_group_gender"
+            android:id="@+id/escolha1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
@@ -92,7 +97,7 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radio_masculino"
+                android:id="@+id/masculino"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
@@ -101,7 +106,7 @@
                 android:textStyle="bold" />
 
             <RadioButton
-                android:id="@+id/radio_feminino"
+                android:id="@+id/feminino"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
@@ -112,7 +117,7 @@
         </RadioGroup>
 
         <RadioGroup
-            android:id="@+id/radio_group_gender2"
+            android:id="@+id/escolha2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
@@ -122,7 +127,7 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radio_nao_dizer"
+                android:id="@+id/nao_dizer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
@@ -149,7 +154,7 @@
             android:orientation="vertical">
 
             <CheckBox
-                android:id="@+id/checkBoxNotifications"
+                android:id="@+id/notificacao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/desejo_receber_notifica_es"
@@ -157,7 +162,7 @@
                 android:textSize="16sp" />
 
             <CheckBox
-                android:id="@+id/checkBoxTerms"
+                android:id="@+id/termos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/aceito_os_termos_de_uso"
@@ -174,6 +179,7 @@
             tools:context=".MainActivity">
 
             <Button
+                android:id="@+id/criar_conta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -183,6 +189,7 @@
                 android:textSize="15sp" />
 
             <Button
+                android:id="@+id/limpar_formulario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
