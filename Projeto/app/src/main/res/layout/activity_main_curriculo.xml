@@ -96,7 +96,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:backgroundTint="#e9791a"
+                android:backgroundTint="@color/orange"
                 android:text="@string/editar_perfil"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
@@ -105,7 +105,7 @@
                 android:id="@+id/botao_curriculo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#4fafff"
+                android:backgroundTint="@color/blue"
                 android:text="@string/baixar_curr_culo"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
