@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
-        android:background="#3A64AE"
+        android:background="#4fafff"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
@@ -24,7 +24,7 @@
             android:layout_height="120dp"
             android:layout_gravity="center"
             android:contentDescription="@string/logo"
-            android:src="@drawable/logo" />
+            android:src="@drawable/icon_logo" />
 
         <EditText
             android:id="@+id/usuario_login"
@@ -111,7 +111,6 @@
             android:id="@+id/main3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#3A64AE"
             android:orientation="horizontal"
             tools:context=".MainActivity">
 
