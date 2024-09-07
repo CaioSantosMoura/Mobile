@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login</string>
+    <string name="app_name">RPASP</string>
     <string name="logo">logo</string>
     <string name="esqueceu_a_senha">Esqueceu a Senha?</string>
     <string name="or">-------------------------- or -------------------------</string>
